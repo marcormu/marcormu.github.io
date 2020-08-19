@@ -8,19 +8,59 @@
     <link href="bootstrap-grid.css" rel="stylesheet"
     type="text/css" />
   </head>
+  <style>
+#myDIV {
+  width: 100%;
+  padding: 50px 0;
+  text-align: center;
+  background-color: orange;
+  margin-top: 20px;
+}
+</style>
   <body>
-<h2> Page 2</h2>
+   
 
- <input value="Click here to see part of my 20+ birbs" onclick="alert('coming soon')" type="button"> 
-    <script src="scriptjs"></script>
+<div id="myDIV">
+You are probably wondering whose birds are these
+</div>
+   
+<h2> Birbs</h2>
+
+
+    <script src="scriptjs">
+    function myFunction() {
+  var x = document.getElementById("myDIV");
+  if (x.style.display === "none") {
+    x.style.display = "block";
+  } else {
+    x.style.display = "none";
+  }
+}
+    </script>
     <br>
-<p1> DISCLAIMER this is just an example </p1>
 
-<button onclick="showImage()">Toggle
-  Image</button>
+
+
   <img id="hidden" class="Round-Image"
   src= "images/mybirbs.jpg">
-
+<br>
+<p1>These are in fact part of my 20+ birds that my family has to deal with.</p1>
+<br>
+<p2> Yes, they are loud sometimes and won't stop chirping until they are covered with blankets.</p2>
+<br>
+<p1> If you want to know how or why I have these birds I will explain now </p1>
+<br>
+<p2> So this all started about a year ago when I only had like 5 parakeets. </p2>
+<br>
+<p1> Then one day one of them starting laying eggs and about a month later 6 babies hatched. </p1>
+<br>
+<p2> Well now you just repeat that step multiple times and here we are</p2>
+<br>
+<p1> Now we have more than 20 birds to buy food for and give water to.</p1>
+<br>
+  
+   <a href="index.html">Home</a>
+    <a href="page3.html">Youtube Stuff</a 
 
   </body>
 
